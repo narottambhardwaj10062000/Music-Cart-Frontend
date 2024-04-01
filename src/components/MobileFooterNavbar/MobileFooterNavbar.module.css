@@ -1,0 +1,66 @@
+.footerNav {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .footerNav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2% 3% 0 3%;
+    position: fixed;
+    bottom: 0;
+    border-top: 3px solid #c8c8c8;
+    background-color: #ffffff;
+  }
+
+  .footerNav > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 0.5vh;
+  }
+
+  .footerNav > div > span {
+    font-family: Roboto;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000000;
+  }
+
+  .top {
+    width: 112%;
+    height: 5px;
+    background-color: #2e0052;
+    border: 4px solid #2e0052;
+    border-radius: 5px;
+  }
+
+  .navIcon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .cart {
+    position: relative;
+  }
+
+  .counterDiv {
+    height: 22px;
+    width: 22px;
+    background-color: #2dad00;
+    border-radius: 50%;
+    position: absolute;
+    top: -10%;
+    right: -30%;
+    color: #ffffff;
+    font-family: Roboto;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

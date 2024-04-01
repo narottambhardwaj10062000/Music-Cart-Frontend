@@ -1,0 +1,77 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #2e0052;
+  padding: 1rem;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size:calc(12px + 0.6vw);
+  margin-left: 2rem;
+}
+
+.middleDiv {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: calc(12px + 0.6vw);
+  color: #ffffff;
+}
+
+.loginSignupContainer {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-right: 1.5rem;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: calc(18px + 0.8vw);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.verticalBar {
+  width: 2px;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+.mobileHeader {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .contact {
+    display: none;
+  }
+
+  .middleDiv {
+    display: none;
+  }
+
+  .loginSignupContainer {
+    display: none;
+  }
+
+  .mobileHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+  }
+
+  .mobileHeader > img {
+    height: 7vh;
+  }
+}

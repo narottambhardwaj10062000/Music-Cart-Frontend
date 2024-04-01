@@ -1,0 +1,21 @@
+.cardContainer{
+    position: relative;
+    height: 40vh;
+    width: 100%;
+    background-color: #D4E5FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardImg {
+    width: 80%;
+    height: 80%;
+}
+
+.cartIcon {
+    position: absolute;
+    bottom: 1%;
+    right: 0%;
+    cursor: pointer;
+}

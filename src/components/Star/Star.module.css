@@ -1,0 +1,31 @@
+
+.iconStyle {
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #FFD600;
+}
+
+.iconStyle p {
+  font-size: 2vw;
+  font-family: Roboto;
+  color: #000000;
+}
+
+@media (max-width: 600px) {
+  .icon {
+    font-size: 1.5rem;
+    color: #FFD600;
+  }
+
+  .iconStyle p {
+    font-size: 4vw;
+    font-family: Roboto;
+    color: #000000;
+  }
+}

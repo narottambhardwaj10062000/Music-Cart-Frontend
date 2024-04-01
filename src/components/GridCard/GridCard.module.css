@@ -1,0 +1,18 @@
+/* Grid */
+
+.gridCardContainer {
+  display: flex;
+  flex-direction: column;
+  /* gap: 2rem; */
+}
+
+.gridCardInfo {
+  width: 100%;
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.gridCardInfo p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 1.5vw;
+}

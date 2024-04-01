@@ -1,0 +1,190 @@
+.searchBoxHeader {
+  width: 100%;
+  height: 10vh;
+  background-color: #2e0052;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0vw 3vw; */
+}
+
+.searchBoxHeader > div {
+  border-radius: 5px;
+  width: 90%;
+  height: 60%;
+  background-color: #ffffff;
+  display: flex;
+  gap: 1.5vw;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.searchBoxHeader > div > input {
+  outline: none;
+  border: none;
+  /* color:  */
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.searchBoxHeader > div > img {
+  height: 60%;
+}
+
+.container {
+  width: 100%;
+  /* height: 100vh; */
+  /* padding: 0vw 3vw; */
+  padding: 0 3vw 15vh 3vw;
+}
+
+.backButton {
+  margin-top: 3vh;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: (255, 255, 255, 1);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.backButton > img {
+  height: 50%;
+}
+
+/* Image Slider */
+.productImgSlider {
+  margin-top: 3vh;
+  width: 100%;
+  height: 37vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vh;
+}
+
+.productImages {
+  width: 95%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.productImages > img {
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+}
+
+.imageNoShow {
+  height: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+}
+
+.imageNoShow > div {
+  width: 3%;
+  height: 100%;
+  border: 1.5px solid rgba(161, 161, 161, 1);
+  border-radius: 100%;
+}
+
+.fullInfoContainer {
+  width: 100%;
+  padding: 3vh 3vw 0vh 3vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.productName {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 8vw;
+  color: #000000;
+}
+
+.shortDescription {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.price {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.color_category {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.aboutContainer > span {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 4vw;
+  color: #000000;
+}
+
+.aboutContainer > ul {
+  padding-left: 2rem;
+}
+
+.aboutContainer > ul > li {
+  font-family: Roboto;
+  font-weight: 550;
+  font-size: 4vw;
+  color: #000000;
+  letter-spacing: 0.4px
+}
+
+.availability {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.availability span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.brand {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 5vw;
+  color: #000000;
+}
+
+.brand span {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 5vw;
+  color: #000000;
+}
+
+@media (min-width: 600px) {
+  .singleMobileContainer {
+    display: none;
+  }
+}

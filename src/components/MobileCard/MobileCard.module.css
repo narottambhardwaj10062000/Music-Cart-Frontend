@@ -1,0 +1,21 @@
+.cardContainer {
+  display: flex;
+  height: 80vw;
+  flex-direction: column;
+  border: 1.13px solid #CECECE;
+  border-radius: 5.65px;
+}
+
+.mobileCardInfo {
+  width: 100%;
+  padding: 1rem 1rem 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh
+}
+
+.mobileCardInfo p {
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 3.3vw;
+}

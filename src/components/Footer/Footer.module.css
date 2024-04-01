@@ -1,0 +1,22 @@
+.footerContainer {
+    width: 100%;
+    height: 4rem;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2E0052;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 27px;
+    color: #FFFFFF;
+    margin-bottom: 0%;
+}
+
+@media (max-width: 600px) {
+   .footerContainer {
+      position: fixed;
+      bottom: 0%;
+      font-size: 5vw;
+   }
+}
